@@ -18,6 +18,6 @@ class String
     #self.split(/\?|\.|!/)
     self.split(/\w[?!.]/).length
     #self.split(/[?!.]\s+[A-Z]/).length.reject
-    #binding.pry
+    binding.pry
   end
 end
