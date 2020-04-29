@@ -19,6 +19,6 @@ class String
     array = self.split(/[?!.]/)
     array.reject{ |e| e.size < 2 }
     #self.split(/[?!.]\s+[A-Z]/).length.reject
-    binding.pry
+    #binding.pry
   end
 end
